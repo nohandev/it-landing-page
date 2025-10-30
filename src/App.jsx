@@ -1,7 +1,9 @@
+import Hero from './components/Hero/Hero.jsx'
+
 const App = () => {
   return (
     <div>
-      Hello World      
+      <Hero/> 
     </div>
   )
 }
