@@ -1,0 +1,30 @@
+.btn {
+  transition: ease-in-out 100ms;
+  padding: .8em 2.6em;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: clamp(14px, 4vw, 16px);  
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.black {
+  background-color: black;
+  color: white;
+  
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.gray {
+  background-color: #1E1E1E;
+  color: white;
+}
+
