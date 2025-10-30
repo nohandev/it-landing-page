@@ -7,8 +7,6 @@
 }
 
 .headerContainer {
-  max-width: 1440px;
-  margin: 0 auto;
   padding-top: 3.5em;
   display: flex;
   justify-content: space-between;

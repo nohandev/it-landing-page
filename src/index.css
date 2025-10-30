@@ -6,3 +6,25 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+.container_1440 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container_1280 {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+  .container_1280 {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container_1440 {
+    padding: 0 2rem;
+  }
+}
