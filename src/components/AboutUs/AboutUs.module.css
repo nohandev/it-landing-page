@@ -1,0 +1,11 @@
+.aboutUsContainer {
+    margin: 0 auto;
+}
+
+.aboutUsTextContainer > p {
+    width: 83%;
+    margin: auto;
+    font-size: 1.7em;
+    font-weight: 400;
+    line-height: 190%;
+}
