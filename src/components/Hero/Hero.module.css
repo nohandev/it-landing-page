@@ -43,7 +43,7 @@
 
 .heroContent h1 {
   color: white;
-  font-size: clamp(36px, 4vw, 56px);
+  font-size: clamp(28px, 4vw, 56px);
   font-weight: bold;
   text-align: center;
 }
@@ -51,4 +51,27 @@
 .heroButtons {
   display: flex;
   column-gap: 2em;
+}
+
+@media (max-width: 480px) {
+  .navMenu { display: none; }
+  .buttonBlock { display: none; }
+
+  .heroContent > h1 {
+    width: 70%;
+    text-align: left;
+    font-size: clamp(33px, 3px, 40px);
+  }
+}
+
+@media (max-width: 320px) {
+  .heroContent > h1 {
+    width: 80%;
+    font-size: clamp(30px, 3px, 40px);
+  }
+
+  .heroButtons {
+    max-width: 90%;
+    column-gap: 1em;
+  }
 }
