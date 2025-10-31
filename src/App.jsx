@@ -4,12 +4,15 @@ import AboutUs from './components/AboutUs/AboutUs.jsx'
 
 const App = () => {
   return (
-    <div>
+    <>
       <Hero/>
       <Container title="About Us">
         <AboutUs />
       </Container>
-    </div>
+      <Container title="Global Voices">
+        <img className="globalvoices_image" src="./world-map.png" />
+      </Container>
+    </>
   )
 }
 

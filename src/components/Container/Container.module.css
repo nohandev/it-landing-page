@@ -1,7 +1,7 @@
 .defaultContainer {
-    background-color: #000;
-    height: 80dvh;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
+    height: 90dvh;
 
     display: flex;
     justify-content: center;
@@ -9,13 +9,13 @@
     align-items: center;
 }
 
-.defaultContainer > div.containerContent > header {
+.defaultContainer > header {
     margin-bottom: 30px;
     padding-top: 30px;
     width: 100%;
 }
 
-.defaultContainer > div.containerContent > header > h1 {
+.defaultContainer > header > h1 {
     font-weight: 300;
     color: #A5A5A5;
     text-align: left;
