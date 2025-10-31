@@ -18,3 +18,22 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media (max-width: 480px) {
+    .aboutUsContainer > div.aboutUsShowcaseContainer {
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        grid-template-rows: 150px auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .aboutUsTextContainer > p {
+        font-size: 1.3em;
+    }
+
+    .aboutUsContainer > div.aboutUsShowcaseContainer {
+        grid-template-columns: 120px 1fr;
+        grid-template-rows: 150px auto;
+    }
+}
