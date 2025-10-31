@@ -8,4 +8,13 @@
     font-size: 1.7em;
     font-weight: 400;
     line-height: 190%;
+    margin-bottom: 50px;
+}
+
+.aboutUsContainer > div.aboutUsShowcaseContainer {
+    margin: auto;
+    display: flex;
+    max-width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
 }

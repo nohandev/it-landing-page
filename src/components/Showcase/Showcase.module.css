@@ -1,0 +1,16 @@
+.defaultShowcase {
+    max-width: 120px;
+}
+
+.defaultShowcase > p.showcaseTitle {
+    font-weight: 300;
+    color: #A5A5A5;
+    text-align: left;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.defaultShowcase > p.showcaseValues {
+    font-size: 2.8em;
+    font-weight: 600;
+}

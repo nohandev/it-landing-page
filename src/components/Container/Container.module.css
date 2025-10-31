@@ -1,7 +1,6 @@
 .defaultContainer {
     background-color: #000;
-    margin: 0 auto;
-    height: 60dvh;
+    height: 80dvh;
     color: #fff;
 
     display: flex;
