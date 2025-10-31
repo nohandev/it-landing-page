@@ -7,11 +7,36 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #000;
+}
+
 .container_1440 {
   max-width: 1440px;
+  padding: 0 2rem;
   margin: 0 auto;
 }
 
+.globalvoices_image {
+  width: 1024px;
+  height: 600px;
+}
+
+@media (max-width: 769px) {
+  .globalvoices_image {
+    width: 700px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 481px) {
+  .globalvoices_image {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+/*
 .container_1280 {
   max-width: 1280px;
   margin: 0 auto;
@@ -27,4 +52,4 @@
   .container_1440 {
     padding: 0 2rem;
   }
-}
+}*/
