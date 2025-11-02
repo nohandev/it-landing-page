@@ -1,6 +1,5 @@
 import Style from './Blog.module.css'
 import Card from '../Card/Card.jsx'
-import CardStyle from '../Card/Card.module.css'
 
 const Blog = () => {
     return (

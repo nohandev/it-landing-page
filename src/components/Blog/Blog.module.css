@@ -23,10 +23,16 @@
     justify-content: space-around;
 }
 
-.blogContainer > div.blogSubContent > div {
+.blogContainer > div.blogSubContent > div:first-child {
     position: relative;
     background-position: center;
     background-image: url('./blog-image-1.jpg');
+}
+
+.blogContainer > div.blogSubContent > div:last-child {
+    position: relative;
+    background-position: center;
+    background-image: url('./blog-image-3.jpg');
 }
 
 .blogSubContentBg {
@@ -43,4 +49,18 @@
     font-weight: 500;
     position: absolute;
     padding: 0 10px 10px 10px;
+}
+
+@media (max-width: 480px) {
+    .blogContainer {
+        width: 400px;
+        height: 2000px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .blogContainer > div.blogSubContent {
+        margin: 10px auto;
+        height: 380px;
+    }
 }
