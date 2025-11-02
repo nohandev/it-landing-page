@@ -1,7 +1,7 @@
 import Hero from './components/Hero/Hero.jsx'
 import Container from './components/Container/Container.jsx'
 import AboutUs from './components/AboutUs/AboutUs.jsx'
-import Card from './components/Card/Card.jsx'
+import Blog from './components/Blog/Blog.jsx'
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <img className="globalvoices_image" src="./world-map.png" />
       </Container>
       <Container title="Blog">
-        <Card />
+        <Blog />
       </Container>
     </>
   )
