@@ -15,7 +15,6 @@
 .black {
   background-color: black;
   color: white;
-  
 }
 
 .white {
@@ -28,3 +27,11 @@
   color: white;
 }
 
+.cardButton {
+  background-color: black;
+  font-size: 0.9em;
+  margin-left: 8px;
+  border-radius: 0;
+  padding: 0.6em;
+  color: white;
+}
