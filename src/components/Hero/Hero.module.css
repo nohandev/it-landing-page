@@ -6,6 +6,17 @@
   background-size: cover;
 }
 
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  .header {
+    padding: 0 2em;
+  }
+}
+
 .headerContainer {
   padding-top: 3.5em;
   display: flex;

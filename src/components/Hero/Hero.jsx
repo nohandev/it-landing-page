@@ -4,7 +4,7 @@ import styles from './Hero.module.css'
 const Hero = () => {
   return (
     <section className={styles.hero}>
-      <header className={`${styles.header} container_1440`}>
+      <header className={`${styles.header}`}>
         <div className={styles.headerContainer}>
           <div className={styles.logoBlock}>
             <img src='/logo.png' alt='Logo image'/>
