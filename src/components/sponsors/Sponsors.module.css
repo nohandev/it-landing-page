@@ -1,0 +1,36 @@
+.sponsorSection {
+  padding: 6em 2em;
+}
+
+.sponsorContent {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sponsorTitle h2 {
+  font-weight: 300;
+  color: #A5A5A5;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.sponsorWrapper {
+  max-width: 1096px;
+  margin: 3em auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.sponsorWrapper img {
+  max-width: 150px;
+  object-fit: cover;
+}
+
+@media (width < 1024px) {
+  .sponsorWrapper {
+    flex-direction: column;
+  }
+}
