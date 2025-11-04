@@ -64,3 +64,17 @@
         height: 380px;
     }
 }
+
+@media (max-width: 320px) {
+    .blogContainer {
+        width: 250px;
+    }
+
+    .blogContainer > div.blogSubContent {
+        width: 250px;
+    }
+
+    .blogSubContentTitle {
+        font-size: 0.7em;
+    }
+}

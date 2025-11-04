@@ -1,6 +1,7 @@
 .cardContainer {
     background-color: #fff;
     max-width: 335px;
+    cursor: pointer;
     height: 362px;
 }
 
@@ -16,4 +17,18 @@
     padding: 8px;
     color: #707070;
     line-height: 140%;
+}
+
+@media (max-width: 320px) {
+    .cardContainer {
+        width: 250px;
+    }
+
+    .cardTitle {
+        font-size: 0.7em;
+    }
+
+    .cardContent {
+        font-size: 0.8em;
+    }
 }

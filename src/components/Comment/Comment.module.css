@@ -1,0 +1,68 @@
+.commentContainer {
+    top: 100px;
+    right: 100px;
+    width: 300px;
+    color: #000;
+    padding: 30px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.commentTextContainer {
+    width: 89%;
+    margin: 0 0 10px auto;
+}
+
+.commentTextContainer > p {
+    font-weight: 500;
+    line-height: 190%;
+    font-size: 0.7em;
+}
+
+.commentProfile {
+    width: 89%;
+    display: flex;
+    font-size: 0.7em;
+    margin-left: auto;
+    flex-direction: row;
+}
+
+.commentProfile > div.commentProfileImage {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-image: url('./profile-pic.jpg');
+}
+
+.commentProfile > div.commentProfileInfos > p:first-child {
+    font-weight: 500;
+}
+
+.commentProfile > div.commentProfileInfos > p:last-child {
+    font-weight: 300;
+}
+
+@media (max-width: 780px) {
+    .commentContainer {
+        top: 230px;
+        right: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .commentContainer {
+        top: 380px;
+        right: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .commentContainer {
+        top: 420px;
+        right: 10px;
+    }
+}
