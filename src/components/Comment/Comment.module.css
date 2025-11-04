@@ -59,3 +59,10 @@
         right: 150px;
     }
 }
+
+@media (max-width: 320px) {
+    .commentContainer {
+        top: 420px;
+        right: 10px;
+    }
+}
