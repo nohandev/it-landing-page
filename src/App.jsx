@@ -5,6 +5,7 @@ import Blog from './components/Blog/Blog.jsx'
 import Button from './components/Button/Button.jsx'
 import Comment from './components/Comment/Comment.jsx'
 import Services from './components/Services/Services.jsx'
+import Sponsors from './components/sponsors/Sponsors.jsx'
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
       </Container>
 
       <Services/>
+
+      <Sponsors/>
 
       <Container className="preContactContainer">
         <p className="preContactText">Have a technology challenge?</p>
