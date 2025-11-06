@@ -1,0 +1,84 @@
+.contactSection {
+  height: 100dvh;
+}
+
+.contactContent {
+  max-width: 1096px;
+  margin: 2em auto 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 6em;
+}
+
+.contactImage {
+  flex: 1;
+  line-height: 0;
+}
+
+.contactImage img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.contactForm {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formTitle h1 {
+  color: white;
+  font-weight: bold;
+  font-size: clamp(26px, 4vw, 30px);
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.formField label {
+  color: white;
+  font-weight: 500;
+  font-size: clamp(18px, 4vw, 20px); 
+}
+
+.formField input, .formField textarea {
+  width: 100%;
+  padding: 1em 1.6em;
+  outline: none;
+  line-height: 100%;
+  border: none;
+  border-radius: 2px;
+}
+
+.emailAndDateContainer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: .5em;
+}
+
+.date {
+  flex: 1;
+}
+
+.email {
+  flex: 2;
+}
+
+.formBtn {
+  background-color: white;
+  color: black;
+  font-weight: 400; 
+  border: none;
+  border-radius: 2px;
+  padding: .8em 2em;
+  transition: ease-in-out 150ms;
+}
+
+.formBtn:hover {
+  cursor: pointer;
+  background-color: rgb(209, 209, 209);
+}
