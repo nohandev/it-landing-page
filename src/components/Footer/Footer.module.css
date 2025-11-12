@@ -1,0 +1,100 @@
+footer {
+  
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5em;
+  row-gap: 1.05em;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: .7em;
+}
+
+p, li span {
+  font-size: 16px;
+  
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  gap: .7em;
+}
+
+input {
+  outline: none;
+  border: 1px solid white;
+  padding: 1.2em 1.5em;
+  background: transparent;
+  color: white;
+  flex: 3;
+}
+
+button {
+  outline: none;
+  border: 1px solid white;
+  padding: 1em 3em;
+  background: transparent;
+  color: white;
+}
+
+.footerContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerNewsletter {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.textForm {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 2em;
+}
+
+.credits {
+  margin-top: 8rem;
+}
+
+.creditsContent { 
+  max-width: 1440px;
+  border-top: 1px solid white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0 5em;
+}
+
+.terms {
+  display: flex;
+  gap: 1.5em;
+  text-decoration: underline;
+  
+}
+
+.terms p {
+  transition: ease-in-out 150ms;
+} 
+
+.terms p:hover {
+  cursor: pointer;
+  color: #c4c4c4;
+} 
